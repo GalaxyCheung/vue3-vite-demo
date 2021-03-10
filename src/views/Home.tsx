@@ -5,10 +5,8 @@ export default defineComponent({
   setup() {
     return () => (
       <>
-        <div>
-            222
-        </div>
+        <div>222</div>
       </>
     );
-  }
+  },
 });

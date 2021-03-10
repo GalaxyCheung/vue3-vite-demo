@@ -1,9 +1,9 @@
-export interface State {
-  title: string;
-}
+import { state } from './state';
+import { createStore } from 'vuex';
 
-export const state: State = {
-  title: 'Vue(v3) 与 tsx 的结合~',
-};
-
-export default state;
+export default createStore({
+  state,
+  mutations: {},
+  actions: {},
+  modules: {},
+});
